@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MacTweaks</title>
+  <meta name="description" content="Small macOS tweaks in one menu bar app: window grabbing, cursor jumps between displays, linked tiled windows and middle click.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    :root {
+      --bg: #f6f6fa;
+      --card: #ffffff;
+      --text: #1d1d24;
+      --muted: #5f6070;
+      --accent: #5a5ff0;
+      --accent-text: #ffffff;
+      --border: #e3e3ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131318;
+        --card: #1d1d25;
+        --text: #ececf2;
+        --muted: #a0a1b2;
+        --accent: #7c80ff;
+        --accent-text: #0f0f14;
+        --border: #2c2c38;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 64px 16px 48px; }
+    header { text-align: center; }
+    header img { width: 128px; height: 128px; }
+    h1 { font-size: 44px; line-height: 1.1; margin: 16px 0 8px; letter-spacing: -0.02em; }
+    .tagline { color: var(--muted); font-size: 20px; margin: 0 auto 28px; max-width: 520px; }
+    .download {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--accent-text);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 12px 28px;
+      border-radius: 12px;
+    }
+    .requirements { color: var(--muted); font-size: 14px; margin-top: 12px; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-top: 56px; }
+    .feature { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; }
+    .feature h2 { font-size: 18px; margin: 0 0 6px; }
+    .feature p { margin: 0; color: var(--muted); font-size: 15px; }
+    .privacy { margin-top: 40px; text-align: center; color: var(--muted); font-size: 15px; }
+    footer { margin-top: 48px; text-align: center; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="icon.png" alt="">
+      <h1>MacTweaks</h1>
+      <p class="tagline">Small macOS tweaks in one menu bar app. Turn each one on and off on its own.</p>
+      <a class="download" href="downloads/MacTweaks.dmg">Download for Mac</a>
+      <p class="requirements">macOS 15 or later · Apple silicon and Intel</p>
+    </header>
+
+    <section class="features">
+      <div class="feature">
+        <h2>Window Grip</h2>
+        <p>Hold a modifier and drag anywhere in a window to move it, or drag with the right button to resize it from the nearest edge.</p>
+      </div>
+      <div class="feature">
+        <h2>Cursor Jump</h2>
+        <p>Keyboard shortcuts that send the cursor to the next display, or straight to a given one, right where it last was.</p>
+      </div>
+      <div class="feature">
+        <h2>Tile Link</h2>
+        <p>Windows side by side stay side by side: drag their shared edge and the neighbours resize with it.</p>
+      </div>
+      <div class="feature">
+        <h2>Mouse &amp; Trackpad</h2>
+        <p>Middle click with three fingers on the trackpad or two on the Magic Mouse, and middle-click paste of the selected text.</p>
+      </div>
+    </section>
+
+    <p class="privacy">No keyboard monitoring and no data collection. The only network request is the update check.</p>
+
+    <footer>© 2026 Tugay Demirel</footer>
+  </main>
+</body>
+</html>
