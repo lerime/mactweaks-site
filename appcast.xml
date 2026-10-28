@@ -3,6 +3,23 @@
     <channel>
         <title>MacTweaks</title>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Wed, 28 Oct 2026 13:22:40 +0300</pubDate>
+            <link>https://mactweaks.lerimedt.com</link>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# MacTweaks 0.4.1
+
+- Settings: a sidebar button next to the window buttons hides and shows the sidebar. **⌃⌘S** does the
+  same.
+]]></description>
+            <enclosure url="https://mactweaks.lerimedt.com/updates/MacTweaks-0.4.1.zip" length="2344982" type="application/octet-stream" sparkle:edSignature="cDGbxi2hMrvSjJGYIk9agxuhvC9TP7lzLzLk9elSoTORt3X/vxBA7m7YKJNS4ezWsnZce/dNAtVoqnRtKn+oCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://mactweaks.lerimedt.com/updates/MacTweaks15-13.delta" sparkle:deltaFrom="13" length="133710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PGV8E0MgG/CRXVwi5Zpg2PI7GL8BYu5j/hz7TibuJd0hbOyFq+zfZmCJu1qSU43tJnSHDaxzRIYvRLUCUfedCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Wed, 28 Oct 2026 12:31:17 +0300</pubDate>
             <link>https://mactweaks.lerimedt.com</link>
