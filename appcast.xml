@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MacTweaks</title>
+        <item>
+            <title>0.4.0</title>
+            <pubDate>Wed, 28 Oct 2026 12:31:17 +0300</pubDate>
+            <link>https://mactweaks.lerimedt.com</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# MacTweaks 0.4.0
+
+The first public release.
+
+- **Window Grip**: hold a modifier and drag anywhere in a window to move or resize it.
+- **Cursor Jump**: shortcuts that move the cursor between displays.
+- **Tile Link**: windows that share an edge resize together.
+- **Mouse & Trackpad**: three-finger trackpad click or tap and two-finger Magic Mouse click act as a
+  middle click; middle-click paste of the selected text.
+- Updates now arrive automatically. Check by hand with **Check for Updates…** in the menu.
+]]></description>
+            <enclosure url="https://mactweaks.lerimedt.com/updates/MacTweaks-0.4.0.zip" length="2344058" type="application/octet-stream" sparkle:edSignature="Bj72wJrpE6MTVU76KZPD2tKdDdUFPl/Tl3FClC1dkyK44P7To52hmKXNXMn4HAeDoZ4jhmJp2VkQZ06NrCLhBA=="/>
+        </item>
+    </channel>
+</rss>
